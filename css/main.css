@@ -1,0 +1,93 @@
+/*--------------------LAYUOT------------*/
+body {}
+
+/*utilizamos una clase css para aplicar estilos*/
+.main-container {
+    width: 1200px;
+    /* background-color: rgb(161, 182, 175); */
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+aside {
+    color: white;
+    background-color: #647087;
+    margin-right: 20px;
+    padding: 25px;
+}
+
+aside section h2:first-child {
+    border-bottom: 4px solid white;
+}
+
+/*utilizamos un id para traer la referencia de un
+elemento puntual del archivo html*/
+#profile-pic {
+    text-align: center;
+}
+
+#profile-pic img {
+    border-radius: 50%;
+    width: 220px;
+}
+
+main section>h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.references {
+    display: flex;
+}
+
+.references img {
+    width: 125px;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt,
+dd {
+    border-top: 1px white solid;
+    line-height: 1.5cm;
+    margin: 0;
+    flex-basis: 50%;
+}
+
+dt{
+    font-weight: bolder;
+}
+
+meter {
+    display: block;
+    width: 80%;
+}
+
+meter::-webkit-meter-optimum-value{
+    background-color: #b88ba4;
+}
+
+::-webkit-meter-bar{
+    background-color: black;
+}
+
+#titulo{
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+#cabecera{
+    background-color: #e7d3de;
+    padding: 20px;
+}
